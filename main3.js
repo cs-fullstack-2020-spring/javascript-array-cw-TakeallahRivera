@@ -9,13 +9,14 @@
 
 */
 //Exercise 1 Solution//
-let arrayBeatles = ['John', 'Paul', 'George', 'Pete'];
+/*let arrayBeatles = ['John', 'Paul', 'George', 'Pete'];
 console.log(arrayBeatles[3]);
 console.log(arrayBeatles);
 arrayBeatles[3]="Ringo";
 console.log(arrayBeatles);
 arrayBeatles.push("Yoko");
 console.log(arrayBeatles);
+*/
 
 /*### Exercise 2
 - Write a program that asks the user to enter 4 ages. Save each of the ages into an array.
@@ -30,10 +31,23 @@ console.log(arrayBeatles);
 
 //Exercise 2 Solution//
 
-prompt('Enter a first age');
-prompt('Enter a second age');
-prompt('Enter a third age');
-prompt('Enter a fourth age');
+let firstAge = prompt("Enter your first age");
+let secondAge = prompt("Enter a second age");
+let thirdAge = prompt("Enter a third age");
+let fourthAge = prompt("Enter a fourth age");
+
+let arrayAge = [firstAge, secondAge, thirdAge, fourthAge];
+console.log(arrayAge);
+
+arrayAge.splice(2,1);
+console.log(arrayAge);
+arrayAge[1] = 800;
+console.log(arrayAge);
+
+
+
+
+
 
 
 
@@ -43,7 +57,10 @@ prompt('Enter a fourth age');
 
 
 /*### Exercise 3
-Write a program that asks the user to enter any four names into an array. If they enter the name Kenn, ignore it and don't enter it in the array. Console.log the resulting array.
+Write a program that asks the user to enter any four names into an array. 
+If they enter the name Kenn, ignore it and 
+don't enter it in the array. 
+Console.log the resulting array.
 
 ```javascript
 Example 1
