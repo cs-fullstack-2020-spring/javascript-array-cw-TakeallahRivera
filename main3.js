@@ -8,15 +8,15 @@
 - Console.log the list
 
 */
-//Exercise 1 Solution//
-/*let arrayBeatles = ['John', 'Paul', 'George', 'Pete'];
+//Exercise 1 Solution 
+let arrayBeatles = ['John', 'Paul', 'George', 'Pete'];
 console.log(arrayBeatles[3]);
 console.log(arrayBeatles);
 arrayBeatles[3]="Ringo";
 console.log(arrayBeatles);
 arrayBeatles.push("Yoko");
 console.log(arrayBeatles);
-*/
+
 
 /*### Exercise 2
 - Write a program that asks the user to enter 4 ages. Save each of the ages into an array.
